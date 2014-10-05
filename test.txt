@@ -1,0 +1,32 @@
+//Program
+need std.lib;		//Need list
+need dict.lib;
+
+PI 3.1415			//Constant declaration
+MEANING 42
+
+int main(character arg){	//Main function
+	ihap count;				//Variable declarations
+	diliihap not count;
+	boolean bol;
+	character char;
+	
+	for(count = 0 ; count < 10 ; count++){	//For loop
+		println("HW");		//Function call
+	}
+	char = 'a';		//Assignment of character
+	if(char=='a'){		//if conditional
+		bol = F;	//Assignment of boolean
+		while(bol==T){ //while conditional
+			println("Infinite Loop");
+		}
+	}
+	count = count * count;		//assignment of ihap with multiplication expression
+	return 0;		//return statement and end of main function
+}
+ihap avg(ihap a, ihap b){		// function declaration
+	ihap r;
+	r = a + b;
+	r = r/2;
+	return r'
+}
